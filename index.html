@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Blog Template</title>
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <i class="fas fa-laptop-code"></i>&nbsp;&nbsp;Basic Blog Template
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCol">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCol" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">
+                            <i class="fas fa-home"></i>&nbsp;Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">
+                            <i class="fas fa-address-card"></i>&nbsp;About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">
+                            <i class="fas fa-envelope"></i>&nbsp;Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">
+                            <i class="fas fa-info-circle"></i>&nbsp;
+                            More</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header>
+        <div class="jumbotron bg-dark text-white">
+            <div class="container">
+                <div class="col-md-6 px-0">
+                    <h1 class="display-4 font-weight-bold">
+                        A stunning title for your blog
+                    </h1>
+                    <p class="lead my-3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat hic fuga velit accusamus nostrum ea voluptatem placeat expedita nobis eius possimus delectus dolorem aliquam beatae eum officia cum, mollitia iure?
+                    </p class="lead mb-0">
+                    <p>
+                      <button class="btn btn-dark text-dark">
+                       <a href="#" class="text-white"><i class="fas fa-angle-double-right"></i> &nbsp;Read more ...</a>
+                       </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg" class="card-img-top img-thumbnail" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Post Title</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nulla illo nobis dolore beatae vero dicta eaque voluptatum, aspernatur corporis.
+                            </p>
+                            <button type="button" class="btn btn-outline-dark">
+                                See More
+                            </button>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Posted on October 8, 2020
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" class="card-img-top img-thumbnail" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Post Title</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nulla illo nobis dolore beatae vero dicta eaque voluptatum, aspernatur corporis.
+                            </p>
+                            <button type="button" class="btn btn-outline-dark">
+                                See More
+                            </button>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Posted on October 8, 2020
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2018/02/23/04/38/laptop-3174729_960_720.jpg" class="card-img-top img-thumbnail" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Post Title</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nulla illo nobis dolore beatae vero dicta eaque voluptatum, aspernatur corporis.
+                            </p>
+                            <button type="button" class="btn btn-outline-dark">
+                                See More
+                            </button>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Posted on October 8, 2020
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5>Search</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-secondary">
+                                    <i class="fas fa-search"></i> 
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5>Categories / Tags</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Web Design</a></li>
+                                        <li><a href="#">HTML 5</a></li>
+                                        <li><a href="#">Angular</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Javascript</a></li>
+                                        <li><a href="#">CSS 3</a></li>
+                                        <li><a href="#">Bootstrap</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5>Widget</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed ut doloribus quas culpa, alias?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-5 bg-dark text-white text-center">
+        Copyright © Design by Fatih Es 2020
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
